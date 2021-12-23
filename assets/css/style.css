@@ -313,4 +313,16 @@ footer {
     .left-about-heading p, .right-about-heading p {
         text-align: center;
     }
+
+    #photos {
+        column-count: 3;
+    }
+}
+
+/* for small screen sizes 800 wide and down */
+
+@media screen and (max-width:800px) {
+    #photos {
+        column-count: 2;
+    }
 }
